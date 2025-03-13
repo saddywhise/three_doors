@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp1.Window12"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <Grid>
+        <Button x:Name="Button_15" Content="Дверь" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="290,23,0,0" Height="223" Width="90" Click="Button_14_Click"></Button>
+        <Button x:Name="Button_14" Content="Дверь" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,23,0,0" Height="223" Width="90" Click="Button_15_Click"></Button>
+        <Button x:Name="Button_13" Content="Дверь" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="164,23,0,0" Height="223" Width="90" Click="Button_13_Click"></Button>
+    </Grid>
+</Window>
